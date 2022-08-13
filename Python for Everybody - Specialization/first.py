@@ -1,0 +1,1 @@
+print("This course is really amazing")
