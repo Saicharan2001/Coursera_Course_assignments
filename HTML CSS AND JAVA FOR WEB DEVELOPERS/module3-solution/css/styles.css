@@ -1,0 +1,146 @@
+/* Base Styles */
+
+* {
+	box-sizing: border-box;
+}
+h1 {
+	font-family: sans-serif;
+	color: #000000;
+}
+body {
+	background-image: url("background.jpg");
+	background-color: #FEF5CA;
+}
+
+p {
+	padding: 10px;
+	margin: 0;
+}
+
+.container {
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+section {
+	border:	2px solid black;
+	background-color: #00FF99;
+	width: 100%;
+	height: auto;
+	font-family: Helvetica;
+	color: black;
+	position: relative;
+	overflow: auto;
+}
+
+#chicken {
+	/*border: 1px solid black;*/
+	text-align: center;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Georgia,sans-serif;
+	font-weight: bold;
+	font-size: 150%;
+	padding: 5px;
+	/*background-color: #FFFF00;*/
+}
+
+#beef {
+	/*border: 1px solid black;*/
+	text-align: center;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Georgia,sans-serif;
+	font-weight: bold;
+	font-size: 150%;
+	padding: 5px;
+	/*background-color: #FF1439;*/
+}
+
+#sushi {
+	/*border: 1px solid black;*/
+	text-align: center;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Georgia,sans-serif;
+	font-weight: bold;
+	font-size: 125%;
+	/*background-color: #6495ED;*/
+	padding: 5px;
+}
+
+#chicken-div {
+  margin-bottom: 10px;
+  margin-top: 10px
+}
+
+#beef-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#sushi-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  border: 0 0 10px 10px;
+  color: #FFFFFF;
+}
+
+#header-nav {
+  border: 0;
+  background-color: #FC5F06;
+  border-radius: 0
+  color: #FFFFFF;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.nav-header {
+  background-color: #FFFFFF;
+}
+
+.nav-brand {
+  color: #FFFFFF;
+  font-size: 1.5em;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: -10px;
+}
+.navbar-brand a:hover,.navbar-brand a:focus{
+	text-decoration: none;
+}
+
+#nav-list {
+  color: white;
+}
+li p:hover{
+	background-color: #f2f2f2;
+	color:red;
+}
+hr {
+  border-color: brown;
+}
+
+.item {
+  color: black;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: #f2f2f2;
+}
